@@ -8,6 +8,7 @@ const Navbar = () => {
 
   return (
     <>
+      <NavbarHeader />
       <div className="hidden lg:block w-screen">
         <DesktopNavbar />
       </div>
@@ -15,6 +16,14 @@ const Navbar = () => {
         <MobileNavbar />
       </div>
     </>
+  );
+}
+
+const NavbarHeader = () => { 
+  return (
+    <div className="w-full bg-stone-700 text-white font-bold text-xs py-1 pl-4">
+      (405) 341-0267
+    </div>
   );
 }
 
