@@ -3,11 +3,11 @@ import { Link } from "react-scroll";
 const AboutSection = () => {
     return (
         <div className="bg-stone-400 bg-opacity-40 w-screen flex flex-col place-items-center" id="about">
-            <div className="container bg-neutral-100 rounded-md -translate-y-10 p-10 shadow-lg">
+            <div className="container bg-neutral-100 rounded-md -translate-y-10 p-10 shadow-lg lg:px-20">
                 <h1 className="text-4xl">About</h1>
-                <p className="pb-10">For 30 years this company was known as Hasty’s Country Home Meat Co. In February of 2002, former employee Robert, and his wife Anna, became the new owners of country home meat co. Robert and Anna, along with their crew of dedicated employees, continue to offer the same great quality products, five star customer service, and all the same integrity and honesty you had come to expect from the Hastys.</p>
+                <p className="pb-10">For 30 years this company was known as Hasty’s Country Home Meat Co. In February of 2002, former employee Robert, and his wife Anna, became the new owners of Country Home Meats Robert and Anna, along with their crew of dedicated employees, continue to offer the same great quality products, five star customer service, and all the same integrity and honesty you had come to expect from the Hasty’s.</p>
                 <h1 className="text-4xl">Regulations</h1>
-                <p className="pb-10">Country Home Meats Co. is a State Inspected Plant. Regulated by the Oklahoma Department of Agricultrue.</p>
+                <p className="pb-10">Country Home Meats is a State Inspected Plant. Regulated by the Oklahoma Department of Agriculture.</p>
                 <Link to="inspection" smooth={true} duration={300} offset={-100} isDynamic={true} className="chm-button">Read More</Link>
             </div>
         </div>

@@ -6,12 +6,9 @@ const CustomSlaughterSection = () => {
   return (
     <div className="bg-stone-400 bg-opacity-40 w-screen flex flex-col place-items-center py-10" id="slaughter">
       <div className="container bg-neutral-100 rounded-md p-10 shadow-lg">
-        <h1 className="text-4xl mb-4">Custom Slaughter</h1>
-        <div className="flex flex-row">
-          <div className="bg-red-600 flex-grow w-full h-full aspect-video">
-            image
-          </div>
-          <div className="flex-grow p-4 pl-10">
+        <h1 className="text-4xl mb-4 lg:ml-10">Custom Slaughter</h1>
+        <div className="flex flex-row lg:w-1/2">
+          <div className="flex-grow lg:pl-10 mb-5">
             <p className="">We encourage our customers to tour our plant when thinking about having an animal processed with us. Our plant always welcomes visitors. If you would like to schedule an animal for processing please think ahead. The winter and spring seasons are our busy times of the year. Slaughter dates fill up quickly and you need to make an appointment.</p>
             <br />
             <p className="">Call us Monday through Friday from 8am to 5pm to make an appointment. Our helpful staff will be glad to answer any questions you may have.</p>
@@ -20,7 +17,7 @@ const CustomSlaughterSection = () => {
           </div>
         </div>
         <div className="lg:flex flex-row">
-          <div className="lg:p-10">
+          <div className="lg:p-10 mb-10">
             <h1 className="text-red-800 font-bold text-3xl">Slaughter</h1>
             <p>Slaughtering removes blood, hide, and inedible parts form the animal.  In beef, veal, and lamb it will account for an average loss of slightly less than half the original live weight of the animal.  The slaughter weight loss in hogs averages about one-quarter of the live weight.</p>
             <br />
@@ -89,7 +86,7 @@ const CustomSlaughterSection = () => {
             </div>
           </div>
         </div>
-        <div className="p-10">
+        <div className="py-10 lg:px-10">
           <h1 className="text-red-800 font-bold text-3xl">Beef Processing</h1>
           <h2 className="text-lg italic pb-4">Minimum Processing Fee $400</h2>
           <div>
@@ -102,7 +99,7 @@ const CustomSlaughterSection = () => {
             <PricesList priceList={beefSlaughterProcessingPrices} />
           </Disclosure>
         </div>
-        <div className="p-10">
+        <div className="py-10 lg:px-10">
           <h1 className="text-red-800 font-bold text-3xl">Pork Processing</h1>
           <h2 className="text-lg italic pb-4">Minimum Processing Fee $400</h2>
           <div>

@@ -11,7 +11,7 @@ const Disclosure = ({ title, children }: { title: string, children: JSX.Element 
                 <p className="flex-grow font-semibold">{title}</p>
                 <SvgCaret className={(!open && "-rotate-90") + " h-6 w-6 transition-transform duration-300"} />
             </div>
-            <div className={(open ? "max-h-screen" : "max-h-0") + " overflow-hidden transition-height"}>
+            <div className={(open ? "max-h-screen" : "max-h-0") + " overflow-hidden transition-height duration-300"}>
                 { children }
             </div>
         </div>

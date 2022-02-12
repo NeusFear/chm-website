@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useState } from "react";
 import { Link } from "react-scroll";
 
@@ -37,7 +36,7 @@ const MobileNavbar = () => {
 
   return (
     <div className="bg-red-700">
-      <div className="bg-red-700 w-screen h-14 md:pl-10 flex flex-row">
+      <div className="bg-red-700 w-screen lg:h-14 h-24 md:pl-10 flex flex-row">
         <NavbarBrandButton />
         <div className="flex-grow"></div>
         <MobileNavOpenButton open={open} toggleOpen={toggleOpen} />
@@ -71,10 +70,10 @@ const NavbarBrandButton = () => {
 
   return (
     <div className="bg-transparent px-4 text-white text-xs capitalize hover:bg-red-900 hover:bg-opacity-50 h-full font-semibold flex flex-row cursor-pointer">
-      <div className="mt-4 mr-2 h-6 w-6 relative">
+      {/*<div className="mt-4 mr-2 h-6 w-6 relative">
         <Image alt="logo" src={logo} layout="fill" />
-      </div>
-      <p className="pt-5 w-40 text-center">COUNTRY HOME MEATS Co.</p>
+      </div>*/}
+      <p className="pt-5 w-40 text-center">COUNTRY HOME MEATS</p>
     </div>
   );
 }
@@ -83,10 +82,10 @@ const NavbarItems = () => {
   return (
     <div className="w-full lg:flex lg:flex-row relative top-0 z-50">
       <NavbarButton name="HOME" target="none" />
-      <NavbarButton name="ABOUT" target="about" />
+      { /* <NavbarButton name="ABOUT" target="about" /> */}
       <NavbarButton name="PRICING" target="prices" />
       <NavbarButton name="CUSTOM SLAUGHTER" target="slaughter" />
-      <NavbarButton name="LOCATION" target="location" />
+      <NavbarButton name="HOURS & LOCATION" target="location" />
     </div>
   );
 }

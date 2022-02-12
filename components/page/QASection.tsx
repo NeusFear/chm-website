@@ -4,7 +4,7 @@ const QASection = () => {
     return (
         <div className="bg-neutral-200 w-screen flex flex-col place-items-center py-10" id="inspection">
             <div className="container bg-neutral-100 rounded-md p-10 shadow-lg">
-                <h1 className="text-4xl mb-4">Inspection and Regulations</h1>
+                <h1 className="text-4xl mb-4 lg:pl-10">Inspection and Regulations</h1>
                 <Disclosure title="What is meat Inspection?">
                     <p>There are 2 types of meat inspection, state and federal.  State inspection is regulated by the Oklahoma Department of Agriculture.  Federal inspection is regulated by the United States Department of Agriculture.</p>
                 </Disclosure>
