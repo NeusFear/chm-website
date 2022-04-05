@@ -109,7 +109,7 @@ const CustomSlaughterSection = () => {
               <li>Cured and Smoked meats are usually ready for pick-up 1 1/2 weeks after your fresh.</li>
             </ul>
           </div>
-          <Disclosure title="Beef Slaughter & Processing Pricing">
+          <Disclosure title="Pork Slaughter & Processing Pricing">
             <PricesList priceList={porkSlaughterProcessingPrices} />
           </Disclosure>
         </div>
