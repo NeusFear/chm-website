@@ -7,7 +7,7 @@ const PricesSection = () => {
     <div className="bg-neutral-200 w-screen flex flex-col place-items-center py-10" id="prices">
       <div className="container bg-neutral-100 rounded-md p-10 shadow-lg">
         <h1 className="text-4xl mb-4 lg:pl-10">Retail Prices</h1>
-        <p className="text-red-800 text-xl lg:pl-10">Prices are subject to change. Please call for pricing dut to impact of COVID-19 on the market. Thank you!</p>
+        <p className="text-red-800 text-xl lg:pl-10">Prices are subject to change. Please call for pricing due to impact of COVID-19 on the market. Thank you!</p>
         <Disclosure title="Beef Retail Prices">
           <PricesList priceList={retailBeefPrices} />
         </Disclosure>
