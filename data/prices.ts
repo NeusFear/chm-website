@@ -1,15 +1,15 @@
 export type RetailPriceType = { item: string, price: number, unit: string }
 
 export const retailBeefPrices: RetailPriceType[] = [
-  { 'item': "T-Bone", 'price': 16.95, 'unit': "Per Lb." },
-  { 'item': "NY Strip", 'price': 16.95, 'unit': "Per Lb." },
-  { 'item': "Tenderloin (Whole)", 'price': 24.95, 'unit': "Per Lb." },
-  { 'item': "Tenderloin (Steaks)", 'price': 33.95, 'unit': "Per Lb." },
-  { 'item': "Ribeye", 'price': 18.95, 'unit': "Per Lb." },
+  { 'item': "T-Bone", 'price': 13.95, 'unit': "Per Lb." },
+  { 'item': "NY Strip", 'price': 13.95, 'unit': "Per Lb." },
+  { 'item': "Tenderloin (Whole)", 'price': 22.95, 'unit': "Per Lb." },
+  { 'item': "Tenderloin (Steaks)", 'price': 29.95, 'unit': "Per Lb." },
+  { 'item': "Ribeye", 'price': 14.95, 'unit': "Per Lb." },
   { 'item': "Sirloin", 'price': 9.95, 'unit': "Per Lb." },
-  { 'item': "Cubed Steak", 'price': 6.99, 'unit': "Per Lb." },
+  { 'item': "Cubed Steak", 'price': 6.09, 'unit': "Per Lb." },
   { 'item': "Short Ribs", 'price': 5.99, 'unit': "Per Lb." },
-  { 'item': "Stew Meat", 'price': 6.09, 'unit': "Per Lb." },
+  { 'item': "Stew Meat", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Boneless Arm Roast", 'price': 6.49, 'unit': "Per Lb." },
   { 'item': "Flank Steak", 'price': 8.49, 'unit': "Per Lb." },
   { 'item': "Skirt Steak", 'price': 8.49, 'unit': "Per Lb." },
