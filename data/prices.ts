@@ -53,7 +53,7 @@ export const retailPorkPrices: RetailPriceType[] = [
 ]
 
 export const sectionPorkPrices: RetailPriceType[] = [
-  { 'item': "Half or Whole", 'price': 2.99, 'unit': "Per Pound Figured on a 75 Pound Take Home Weight" },
+  { 'item': "Half or Whole", 'price': 3.49, 'unit': "Per Pound Figured on a 75 Pound Take Home Weight" },
   { 'item': "Curing", 'price': 1.05, 'unit': "Per Pound Extra for Curing and Smoking" }
 ]
 
