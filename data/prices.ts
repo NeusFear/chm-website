@@ -16,7 +16,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Boneless Chuck Roast", 'price': 6.49, 'unit': "Per Lb." },
   { 'item': "Boneless Rump Roast", 'price': 6.49, 'unit': "Per Lb." },
   { 'item': "Tri-Tip Roast", 'price': 6.49, 'unit': "Per Lb." },
-  { 'item': "Brisket", 'price': 5.49, 'unit': "Per Lb." },
+  { 'item': "Brisket", 'price': 4.99, 'unit': "Per Lb." },
   { 'item': "Beef Bacon", 'price': 7.49, 'unit': "Per Lb." },
   { 'item': "Oxtail", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Lean Meat", 'price': 3.99, 'unit': "Per Lb." },
