@@ -49,7 +49,7 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Bacon", 'price': 7.49, 'unit': "Per Lb." },
   { 'item': "Bacon Ends", 'price': 0.99, 'unit': "Per Lb." },
   { 'item': "Fresh Ham", 'price': 2.69, 'unit': "Per Lb." },
-  { 'item': "Smoked Ham", 'price': 2.99, 'unit': "Per Lb." }
+  { 'item': "Smoked Ham", 'price': 3.29, 'unit': "Per Lb." }
 ]
 
 export const sectionPorkPrices: RetailPriceType[] = [
@@ -63,7 +63,7 @@ export const retailPoultryPrices: RetailPriceType[] = [
 ]
 
 export const beefSlaughterProcessingPrices: RetailPriceType[] = [
-  { 'item': "Slaughter Fee", 'price': 75, 'unit': "Per Animal" },
+  { 'item': "Slaughter Fee", 'price': 100, 'unit': "Per Animal" },
   { 'item': "Processing Fee", 'price': 1.05, 'unit': "Per Lb. of Dressed Weight" },
   { 'item': "Make Patties", 'price': 0.45, 'unit': "Per Lb." },
   { 'item': "Split into Halfes", 'price': 3.00, 'unit': "Per Half" },
@@ -76,8 +76,8 @@ export const beefSlaughterProcessingPrices: RetailPriceType[] = [
 ]
 
 export const porkSlaughterProcessingPrices: RetailPriceType[] = [
-  { 'item': "Slaughter Fee", 'price': 50.00, 'unit': "350 Lbs. or less" },
-  { 'item': "Slaughter Fee", 'price': 60.00, 'unit': "351 Lbs. or more" },
+  { 'item': "Slaughter Fee", 'price': 75.00, 'unit': "350 Lbs. or less" },
+  { 'item': "Slaughter Fee", 'price': 100.00, 'unit': "351 Lbs. or more" },
   { 'item': "Processing Fee", 'price': 1.05, 'unit': "Per Lb. of Dressed Weight" },
   { 'item': "Cure", 'price': 1.05, 'unit': "Per Pound Cured" },
   { 'item': "Sausage", 'price': 0.25, 'unit': "Per Pound Made" }
