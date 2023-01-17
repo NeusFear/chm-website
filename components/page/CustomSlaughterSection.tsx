@@ -101,7 +101,7 @@ const CustomSlaughterSection = () => {
         </div>
         <div className="py-10 lg:px-10">
           <h1 className="text-red-800 font-bold text-3xl">Pork Processing</h1>
-          <h2 className="text-lg italic pb-4">Minimum Processing Fee $400</h2>
+          <h2 className="text-lg italic pb-4">Minimum Processing Fee $200</h2>
           <div>
             <ul className="list-disc">
               <li>Hogs are slaughtered on Tuesdays. Please be sure to have your animals here by 8am the day of slaughter.</li>
