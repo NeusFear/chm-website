@@ -59,7 +59,7 @@ export const sectionPorkPrices: RetailPriceType[] = [
 
 export const retailPoultryPrices: RetailPriceType[] = [
   { 'item': "Boneless Chicken Breasts", 'price': 3.79, 'unit': "Per Lb." },
-  { 'item': "Whole Chicken", 'price': 1.89, 'unit': "Per Lb." }
+  { 'item': "Whole Chicken", 'price': 1.89, 'unit': "Per Lb." },
   { 'item': "Marinated Chicken Breast", 'price': 3.99, 'unit': "Per Lb." }  
 ]
 
