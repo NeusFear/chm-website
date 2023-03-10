@@ -24,7 +24,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Ground Round", 'price': 6.09, 'unit': "Per Lb." },
   { 'item': "Ground Chuck", 'price': 5.79, 'unit': "Per Lb." },
   { 'item': "Ground Chuck Patties", 'price': 5.99, 'unit': "Per Lb." },
-  { 'item': "Dog Bones", 'price': -1, 'unit': "Per Lb." }
+  { 'item': "Dog Bones", 'price': 15.00, 'unit': "Per Bag." }
 ]
 
 export const sectionBeefPrices: RetailPriceType[] = [
@@ -60,6 +60,7 @@ export const sectionPorkPrices: RetailPriceType[] = [
 export const retailPoultryPrices: RetailPriceType[] = [
   { 'item': "Boneless Chicken Breasts", 'price': 3.79, 'unit': "Per Lb." },
   { 'item': "Whole Chicken", 'price': 1.89, 'unit': "Per Lb." }
+  { 'item': "Marinated Chicken Breast", 'price': 3.99, 'unit': "Per Lb." }  
 ]
 
 export const beefSlaughterProcessingPrices: RetailPriceType[] = [
