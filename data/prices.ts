@@ -8,7 +8,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Ribeye", 'price': 16.95, 'unit': "Per Lb." },
   { 'item': "Sirloin", 'price': 9.95, 'unit': "Per Lb." },
   { 'item': "Cubed Steak", 'price': 6.09, 'unit': "Per Lb." },
-  { 'item': "Short Ribs", 'price': 5.99, 'unit': "Per Lb." },
+  { 'item': "Short Ribs", 'price': 7.19, 'unit': "Per Lb." },
   { 'item': "Stew Meat", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Boneless Arm Roast", 'price': 6.49, 'unit': "Per Lb." },
   { 'item': "Flank Steak", 'price': 11.99, 'unit': "Per Lb." },
@@ -41,13 +41,13 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Baby Backs", 'price': 4.99, 'unit': "Per Lb." },
   { 'item': "Hot Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Regular Sausage", 'price': 3.89, 'unit': "Per Lb." },
-  { 'item': "Ground Pork", 'price': 3.49, 'unit': "Per Lb." },
+  { 'item': "Ground Pork", 'price': 3.59, 'unit': "Per Lb." },
   { 'item': "Boneless Loin Roast", 'price': 3.79, 'unit': "Per Lb." },
   { 'item': "Boneless Chops", 'price': 4.19, 'unit': "Per Lb." },
   { 'item': "Boneless Country Ribs", 'price': 2.89, 'unit': "Per Lb." },
   { 'item': "Butt Roast", 'price': 2.69, 'unit': "Per Lb." },
   { 'item': "Bacon", 'price': 7.49, 'unit': "Per Lb." },
-  { 'item': "Bacon Ends", 'price': 0.99, 'unit': "Per Lb." },
+  { 'item': "Bacon Ends", 'price': 2.69, 'unit': "Per Lb." },
   { 'item': "Fresh Ham", 'price': 2.89, 'unit': "Per Lb." },
   { 'item': "Smoked Ham", 'price': 3.29, 'unit': "Per Lb." }
 ]
@@ -59,7 +59,7 @@ export const sectionPorkPrices: RetailPriceType[] = [
 
 export const retailPoultryPrices: RetailPriceType[] = [
   { 'item': "Boneless Chicken Breasts", 'price': 3.79, 'unit': "Per Lb." },
-  { 'item': "Whole Chicken", 'price': 1.89, 'unit': "Per Lb." },
+  { 'item': "Whole Chicken", 'price': 2.69, 'unit': "Per Lb." },
   { 'item': "Marinated Chicken Breast", 'price': 3.99, 'unit': "Per Lb." }  
 ]
 
