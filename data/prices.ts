@@ -42,6 +42,7 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Hot Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Regular Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Ground Pork", 'price': 3.59, 'unit': "Per Lb." },
+  { 'item': "Bratwurst Sausage", 'price': 4.89, 'unit': "Per Lb." },
   { 'item': "Boneless Loin Roast", 'price': 3.79, 'unit': "Per Lb." },
   { 'item': "Boneless Chops", 'price': 4.19, 'unit': "Per Lb." },
   { 'item': "Boneless Country Ribs", 'price': 2.89, 'unit': "Per Lb." },
