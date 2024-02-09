@@ -75,7 +75,8 @@ export const beefSlaughterProcessingPrices: RetailPriceType[] = [
   { 'item': "Bone and Tenderize Round Steaks", 'price': 3.00, 'unit': "Per Half" },
   { 'item': "Make Cubed Steaks", 'price': 3.00, 'unit': "Per Half" },
   { 'item': "Bone out Prime Rib", 'price': 5.00, 'unit': "Per Half" },
-  { 'item': "Bone out Loin", 'price': 10.00, 'unit': "Per Half" }
+  { 'item': "Bone out Loin", 'price': 10.00, 'unit': "Per Half" },
+  { 'item': "Summer Sausage", 'price': 4.00, 'unit': "Per Lb" }
 ]
 
 export const porkSlaughterProcessingPrices: RetailPriceType[] = [
@@ -83,5 +84,6 @@ export const porkSlaughterProcessingPrices: RetailPriceType[] = [
   { 'item': "Slaughter Fee", 'price': 100.00, 'unit': "351 Lbs. or more" },
   { 'item': "Processing Fee", 'price': 1.05, 'unit': "Per Lb. of Dressed Weight" },
   { 'item': "Cure", 'price': 1.05, 'unit': "Per Pound Cured" },
-  { 'item': "Sausage", 'price': 0.25, 'unit': "Per Pound Made" }
+  { 'item': "Sausage", 'price': 0.25, 'unit': "Per Pound Made" },
+  { 'item': "Bratwurst Sausage", 'price': 4.00, 'unit': "Per Pound Made" }
 ]
