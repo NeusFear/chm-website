@@ -36,9 +36,9 @@ export const sectionBeefPrices: RetailPriceType[] = [
 export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Pork Chops", 'price': 3.79, 'unit': "Per Lb." },
   { 'item': "Pork Steak", 'price': 2.89, 'unit': "Per Lb." },
-  { 'item': "Tenderloin", 'price': 4.99, 'unit': "Per Lb." },
+  { 'item': "Pork Tenderloin", 'price': 4.99, 'unit': "Per Lb." },
   { 'item': "Spare Ribs", 'price': 2.99, 'unit': "Per Lb." },
-  { 'item': "Baby Backs", 'price': 4.99, 'unit': "Per Lb." },
+  { 'item': "Baby Back Ribs", 'price': 4.99, 'unit': "Per Lb." },
   { 'item': "Hot Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Regular Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Ground Pork", 'price': 3.59, 'unit': "Per Lb." },
@@ -47,9 +47,10 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Boneless Chops", 'price': 4.19, 'unit': "Per Lb." },
   { 'item': "Boneless Country Ribs", 'price': 2.89, 'unit': "Per Lb." },
   { 'item': "Butt Roast", 'price': 2.69, 'unit': "Per Lb." },
-  { 'item': "Bacon", 'price': 7.49, 'unit': "Per Lb." },
-  { 'item': "Bacon Ends", 'price': 2.69, 'unit': "Per Lb." },
+  { 'item': "Smoked Bacon", 'price': 7.49, 'unit': "Per Lb." },
+  { 'item': "Smoked Bacon Ends", 'price': 2.69, 'unit': "Per Lb." },
   { 'item': "Fresh Ham", 'price': 2.89, 'unit': "Per Lb." },
+  { 'item': "Smoked Ham", 'price': 3.29, 'unit': "Per Lb." },
   { 'item': "Smoked Ham Hock", 'price': 3.29, 'unit': "Per Lb." }  
 ]
 
