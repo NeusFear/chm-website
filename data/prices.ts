@@ -28,9 +28,9 @@ export const retailBeefPrices: RetailPriceType[] = [
 ]
 
 export const sectionBeefPrices: RetailPriceType[] = [
-  { 'item': "Side / Quarter", 'price': 4.69, 'unit': "Per Pound Figured on a 300 Pound Dressed Weight" },
-  { 'item': "Fore Quarter", 'price': 4.49, 'unit': "Per Pound Figured on a 150 Pound Dressed Weight" },
-  { 'item': "Hind Quarter", 'price': 4.99, 'unit': "Per Pound Figured on a 150 Pound Dressed Weight" }
+  { 'item': "Side / Quarter", 'price': 5.49, 'unit': "Per Pound Figured on a 300 Pound Dressed Weight" },
+  { 'item': "Fore Quarter", 'price': 5.29, 'unit': "Per Pound Figured on a 150 Pound Dressed Weight" },
+  { 'item': "Hind Quarter", 'price': 6.29, 'unit': "Per Pound Figured on a 150 Pound Dressed Weight" }
 ]
 
 export const retailPorkPrices: RetailPriceType[] = [
