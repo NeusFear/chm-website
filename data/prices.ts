@@ -2,7 +2,7 @@ export type RetailPriceType = { item: string, price: number, unit: string }
 
 export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "T-Bone", 'price': 14.95, 'unit': "Per Lb." },
-  { 'item': "NY Strip", 'price': 14.95, 'unit': "Per Lb." },
+  { 'item': "NY Strip", 'price': 16.95, 'unit': "Per Lb." },
   { 'item': "Tenderloin (Whole)", 'price': 24.95, 'unit': "Per Lb." },
   { 'item': "Tenderloin (Steaks)", 'price': 34.95, 'unit': "Per Lb." },
   { 'item': "Ribeye", 'price': 22.95, 'unit': "Per Lb." },
@@ -21,7 +21,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Oxtail", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Lean Meat", 'price': 3.99, 'unit': "Per Lb." },
   { 'item': "Tongue", 'price': 7.99, 'unit': "Per Lb." },
-  { 'item': "Ground Round", 'price': 6.49, 'unit': "Per Lb." },
+  { 'item': "Ground Round", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Ground Chuck", 'price': 5.99, 'unit': "Per Lb." },
   { 'item': "Ground Chuck Patties", 'price': 6.49, 'unit': "Per Lb." },
   { 'item': "Dog Bones", 'price': 15.00, 'unit': "Per Bag." }
@@ -43,6 +43,7 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Regular Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Ground Pork", 'price': 3.59, 'unit': "Per Lb." },
   { 'item': "Bratwurst Sausage", 'price': 4.89, 'unit': "Per Lb." },
+  { 'item': "J&C Bratwurst Sausage", 'price': 4.89, 'unit': "Per Lb." },
   { 'item': "Boneless Loin Roast", 'price': 3.79, 'unit': "Per Lb." },
   { 'item': "Boneless Chops", 'price': 4.19, 'unit': "Per Lb." },
   { 'item': "Boneless Country Ribs", 'price': 2.89, 'unit': "Per Lb." },
@@ -61,8 +62,13 @@ export const sectionPorkPrices: RetailPriceType[] = [
 
 export const retailPoultryPrices: RetailPriceType[] = [
   { 'item': "Boneless Chicken Breasts", 'price': 3.79, 'unit': "Per Lb." },
+  { 'item': "Marinated Chicken Breast", 'price': 3.99, 'unit': "Per Lb." },
+  { 'item': "Boneless Chicken Thighs", 'price': 2.99, 'unit': "Per Lb." },
+  { 'item': "Marinated Chicken Thighs", 'price': 3.99, 'unit': "Per Lb." },
+  { 'item': "Chicken Wings", 'price': 3.99, 'unit': "Per Lb." },
+  { 'item': "Marinated Chicken Wings", 'price': 4.99, 'unit': "Per Lb." }
   { 'item': "Whole Chicken", 'price': 2.69, 'unit': "Per Lb." },
-  { 'item': "Marinated Chicken Breast", 'price': 3.99, 'unit': "Per Lb." }  
+  { 'item': "Chicken Legs", 'price': 1.99, 'unit': "Per Lb." }  
 ]
 
 export const beefSlaughterProcessingPrices: RetailPriceType[] = [
