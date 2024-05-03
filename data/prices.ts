@@ -62,7 +62,7 @@ export const sectionPorkPrices: RetailPriceType[] = [
 
 export const retailPoultryPrices: RetailPriceType[] = [
   { 'item': "Boneless Chicken Breasts", 'price': 3.79, 'unit': "Per Lb." },
-  { 'item': "Marinated Chicken Breast", 'price': 3.99, 'unit': "Per Lb." },
+  { 'item': "Marinated Chicken Breast", 'price': 4.79, 'unit': "Per Lb." },
   { 'item': "Boneless Chicken Thighs", 'price': 2.99, 'unit': "Per Lb." },
   { 'item': "Marinated Chicken Thighs", 'price': 3.99, 'unit': "Per Lb." },
   { 'item': "Chicken Wings", 'price': 3.99, 'unit': "Per Lb." },
