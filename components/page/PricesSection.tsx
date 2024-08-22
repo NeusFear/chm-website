@@ -7,7 +7,7 @@ const PricesSection = () => {
     <div className="bg-neutral-200 w-screen flex flex-col place-items-center py-10" id="prices">
       <div className="container bg-neutral-100 rounded-md p-10 shadow-lg">
         <h1 className="text-4xl mb-4 lg:pl-10">Retail Prices</h1>
-        <p className="text-red-800 text-xl lg:pl-10">Need something "not on the list"? Give us a call. I bet we can help.</p>
+        <p className="text-red-800 text-xl lg:pl-10">Need something &quot;not on the list&quot;? Give us a call. I bet we can help.</p>
         <Disclosure title="Beef Retail Prices">
           <PricesList priceList={retailBeefPrices} />
         </Disclosure>
