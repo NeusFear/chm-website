@@ -13,7 +13,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Boneless Arm Roast", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Flank Steak", 'price': 11.99, 'unit': "Per Lb." },
   { 'item': "Skirt Steak", 'price': 10.89, 'unit': "Per Lb." },
-  { 'item': "Boneless Chuck Roast", 'price': 6.99, 'unit': "Per Lb." },
+  { 'item': "Boneless Chuck Roast", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Boneless Rump Roast", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Tri-Tip Roast", 'price': 7.49, 'unit': "Per Lb." },
   { 'item': "Brisket", 'price': 5.79, 'unit': "Per Lb." },
@@ -61,8 +61,8 @@ export const sectionPorkPrices: RetailPriceType[] = [
 ]
 
 export const retailPoultryPrices: RetailPriceType[] = [
-  { 'item': "Boneless Chicken Breasts", 'price': 3.79, 'unit': "Per Lb." },
-  { 'item': "Marinated Chicken Breast", 'price': 4.79, 'unit': "Per Lb." },
+  { 'item': "Boneless Chicken Breasts", 'price': 3.99, 'unit': "Per Lb." },
+  { 'item': "Marinated Chicken Breast", 'price': 4.99, 'unit': "Per Lb." },
   { 'item': "Boneless Chicken Thighs", 'price': 2.99, 'unit': "Per Lb." },
   { 'item': "Marinated Chicken Thighs", 'price': 3.99, 'unit': "Per Lb." },
   { 'item': "Chicken Wings", 'price': 3.99, 'unit': "Per Lb." },
