@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Country Home Meats Homepage" />
       </Head>
 
-      <main className="overflow-x-hidden">
+      <main className="overflow-hidden">
         <Navbar />
         <WelcomeBanner />
         {/*<AboutSection />*/}

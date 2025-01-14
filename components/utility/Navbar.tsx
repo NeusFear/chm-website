@@ -36,7 +36,7 @@ const MobileNavbar = () => {
 
   return (
     <div className="bg-red-700">
-      <div className="bg-red-700 w-screen lg:h-14 h-24 md:pl-10 flex flex-row">
+      <div className="bg-red-700 w-screen h-14 lg:pl-10 flex flex-row">
         <NavbarBrandButton />
         <div className="flex-grow"></div>
         <MobileNavOpenButton open={open} toggleOpen={toggleOpen} />
@@ -48,7 +48,7 @@ const MobileNavbar = () => {
 
 const MobileNavOpenButton = ({ open, toggleOpen }: { open: boolean, toggleOpen: () => void }) => {
   return (
-    <div className="mt-5 mr-2 md:mr-10 group" onClick={toggleOpen}>
+    <div className="mt-5 mr-8 lg:mr-10 group" onClick={toggleOpen}>
       <div className={(open ? "translate-y-1 -rotate-45 group-hover:bg-red-500" : "-translate-y-2 group-hover:bg-neutral-200") + " rounded-full h-1 w-8 bg-white transition-all"}></div>
       <div className={(open ? "opacity-0 group-hover:bg-red-500" : "opacity-100 group-hover:bg-neutral-200") + " rounded-full h-1 w-8 bg-white  transition-all"}></div>
       <div className={(open ? "-translate-y-1 rotate-45 group-hover:bg-red-500" : "translate-y-2 group-hover:bg-neutral-200") + " rounded-full h-1 w-8 bg-white transition-all"}></div>
@@ -80,7 +80,7 @@ const NavbarBrandButton = () => {
 
 const NavbarItems = () => {
   return (
-    <div className="w-full lg:flex lg:flex-row relative top-0 z-50">
+    <div className="w-full flex lg:flex-row flex-col relative top-0 z-50 lg:pb-0 pb-8">
       <NavbarButton name="HOME" target="none" />
       { /* <NavbarButton name="ABOUT" target="about" /> */}
       <NavbarButton name="PRICING" target="prices" />
@@ -93,7 +93,7 @@ const NavbarItems = () => {
 const NavbarButton = ({ name, target }: { name: string, target: string }) => {
 
   return (
-    <Link to={target} smooth={true} duration={300} offset={-100} isDynamic={true} className="pt-5 cursor-pointer bg-transparent px-4 text-white text-xs capitalize hover:bg-red-900 hover:bg-opacity-50 lg:h-full font-semibold transition-colors lg:w-auto w-full h-10">
+    <Link to={target} smooth={true} duration={300} offset={-100} isDynamic={true} className="lg:text-left text-center pt-5 cursor-pointer bg-transparent px-4 text-white text-xs capitalize hover:bg-red-900 hover:bg-opacity-50 lg:h-full font-semibold transition-colors lg:w-auto w-full h-10">
       {name}
     </Link>
   );
