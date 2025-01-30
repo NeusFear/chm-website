@@ -4,7 +4,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "T-Bone", 'price': 14.95, 'unit': "Per Lb." },
   { 'item': "NY Strip", 'price': 16.95, 'unit': "Per Lb." },
   { 'item': "Tenderloin (Whole)", 'price': 24.95, 'unit': "Per Lb." },
-  { 'item': "Tenderloin (Steaks)", 'price': 44.95, 'unit': "Per Lb." },
+  { 'item': "Tenderloin (Steaks)", 'price': 39.95, 'unit': "Per Lb." },
   { 'item': "Ribeye", 'price': 19.95, 'unit': "Per Lb." },
   { 'item': "Sirloin", 'price': 9.95, 'unit': "Per Lb." },
   { 'item': "Cubed Steak", 'price': 6.99, 'unit': "Per Lb." },
@@ -28,9 +28,9 @@ export const retailBeefPrices: RetailPriceType[] = [
 ]
 
 export const sectionBeefPrices: RetailPriceType[] = [
-  { 'item': "Side / Quarter", 'price': 5.49, 'unit': "Per Pound Figured on a 300 Pound Dressed Weight" },
-  { 'item': "Fore Quarter", 'price': 5.29, 'unit': "Per Pound Figured on a 150 Pound Dressed Weight" },
-  { 'item': "Hind Quarter", 'price': 6.29, 'unit': "Per Pound Figured on a 150 Pound Dressed Weight" }
+  { 'item': "Side / Quarter", 'price': 5.79, 'unit': "Per Pound Figured on a 350 Pound Dressed Weight" },
+  { 'item': "Fore Quarter", 'price': 5.99, 'unit': "Per Pound Figured on a 175 Pound Dressed Weight" },
+  { 'item': "Hind Quarter", 'price': 6.49, 'unit': "Per Pound Figured on a 175 Pound Dressed Weight" }
 ]
 
 export const retailPorkPrices: RetailPriceType[] = [
