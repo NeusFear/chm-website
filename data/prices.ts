@@ -6,7 +6,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Tenderloin (Whole)", 'price': 24.95, 'unit': "Per Lb." },
   { 'item': "Tenderloin (Steaks)", 'price': 39.95, 'unit': "Per Lb." },
   { 'item': "Ribeye", 'price': 23.95, 'unit': "Per Lb." },
-  { 'item': "Sirloin", 'price': 10.95, 'unit': "Per Lb." },
+  { 'item': "Sirloin", 'price': 11.95, 'unit': "Per Lb." },
   { 'item': "Cubed Steak", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Short Ribs", 'price': 8.49, 'unit': "Per Lb." },
   { 'item': "Stew Meat", 'price': 6.99, 'unit': "Per Lb." },
