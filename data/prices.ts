@@ -1,7 +1,7 @@
 export type RetailPriceType = { item: string, price: number, unit: string }
 
 export const retailBeefPrices: RetailPriceType[] = [
-  { 'item': "T-Bone", 'price': 14.95, 'unit': "Per Lb." },
+  { 'item': "T-Bone", 'price': 17.95, 'unit': "Per Lb." },
   { 'item': "NY Strip", 'price': 18.95, 'unit': "Per Lb." },
   { 'item': "Tenderloin (Whole)", 'price': 24.95, 'unit': "Per Lb." },
   { 'item': "Tenderloin (Steaks)", 'price': 39.95, 'unit': "Per Lb." },
