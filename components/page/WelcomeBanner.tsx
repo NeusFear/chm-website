@@ -6,7 +6,7 @@ const WelcomeBanner = () => {
             <BackgroundImage alt="banner" src="/images/front.jpg" />
             <div className="bg-gray-900 bg-opacity-70 absolute w-full h-full top-0 text-white text-center flex flex-col place-content-center">
                 <h1 className="text-7xl font-bold" >COUNTRY HOME MEATS</h1>
-                <p className="text-xl">Your local source for Retail, Custom Processed Meats, <br />and Inspected Slaughter in Central Oklahoma.</p>
+                <p className="text-xl">Your local source for Retail, Custom Processed Meats, <br />and Inspected Slaughter in Central Oklahoma.<br />We will be closed July 4th through July 13th for vacation.</p>
             </div>
         </div>
     );
