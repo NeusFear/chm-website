@@ -6,7 +6,7 @@ const MapSection = () => {
       <div className="container bg-neutral-100 rounded-md p-10 shadow-lg lg:flex lg:flex-row">
         <div>
           <h1 className="text-4xl mb-4">Our Hours</h1>
-          <p className="text-red-800 text-xl pt-4 mb-10">Monday - Friday 8am - 5pm<br />Closed for lunch 12pm - 1pm</p>
+          <p className="text-red-800 text-xl pt-4 mb-10">Monday - Friday 8am - 5pm<br />Closed for lunch 12pm - 1pm<br />We will be closed July 4th - July 13th for vacation.</p>
           <p className="text-red-800 text-xl pt-4 mb-10">We will be closed July 4th - July 13th for vacation.</p>
           <h1 className="text-4xl mb-4">Our Location</h1>
           <p className="text-red-800 text-xl">Country Home Meats is located at the NW Corner of Waterloo and Coltrane in Edmond Oklahoma.</p>
