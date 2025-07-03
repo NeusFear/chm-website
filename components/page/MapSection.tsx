@@ -7,7 +7,7 @@ const MapSection = () => {
         <div>
           <h1 className="text-4xl mb-4">Our Hours</h1>
           <p className="text-red-800 text-xl pt-4 mb-10">Monday - Friday 8am - 5pm<br />Closed for lunch 12pm - 1pm</p>
-          <p className="text-red-800 text-xl pt-4 mb-10">We will be closed July 4th - July 13th for vacation.
+          <p className="text-red-800 text-xl pt-4 mb-10">We will be closed July 4th - July 13th for vacation.</p>
           <h1 className="text-4xl mb-4">Our Location</h1>
           <p className="text-red-800 text-xl">Country Home Meats is located at the NW Corner of Waterloo and Coltrane in Edmond Oklahoma.</p>
           <p className="pt-4">2775 E. Waterloo Road Edmond, OK 73034</p>
