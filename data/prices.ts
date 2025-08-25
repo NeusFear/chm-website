@@ -13,10 +13,10 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Boneless Arm Roast", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Flank Steak", 'price': 11.99, 'unit': "Per Lb." },
   { 'item': "Skirt Steak", 'price': 11.99, 'unit': "Per Lb." },
-  { 'item': "Boneless Chuck Roast", 'price': 7.99, 'unit': "Per Lb." },
+  { 'item': "Boneless Chuck Roast", 'price': 10.49, 'unit': "Per Lb." },
   { 'item': "Boneless Rump Roast", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Tri-Tip Roast", 'price': 10.29, 'unit': "Per Lb." },
-  { 'item': "Brisket", 'price': 7.49, 'unit': "Per Lb." },
+  { 'item': "Brisket", 'price': 8.49, 'unit': "Per Lb." },
   { 'item': "Beef Bacon", 'price': 8.49, 'unit': "Per Lb." },
   { 'item': "Oxtail", 'price': 5.99, 'unit': "Per Lb." },
   { 'item': "Lean Meat", 'price': 3.99, 'unit': "Per Lb." },
@@ -28,9 +28,7 @@ export const retailBeefPrices: RetailPriceType[] = [
 ]
 
 export const sectionBeefPrices: RetailPriceType[] = [
-  { 'item': "Side / Quarter", 'price': 5.79, 'unit': "Per Pound Figured on a 350 Pound Dressed Weight" },
-  { 'item': "Fore Quarter", 'price': 5.99, 'unit': "Per Pound Figured on a 175 Pound Dressed Weight" },
-  { 'item': "Hind Quarter", 'price': 6.49, 'unit': "Per Pound Figured on a 175 Pound Dressed Weight" }
+  { 'item': "Side / Quarter", 'price': 6.29, 'unit': "Per Pound Figured on a 350 Pound Dressed Weight" },
 ]
 
 export const retailPorkPrices: RetailPriceType[] = [
@@ -43,7 +41,10 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Regular Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Ground Pork", 'price': 3.59, 'unit': "Per Lb." },
   { 'item': "Bratwurst Sausage", 'price': 4.89, 'unit': "Per Lb." },
-  { 'item': "J&C Bratwurst Sausage", 'price': 4.89, 'unit': "Per Lb." },
+  { 'item': "J&C Bratwurst Sausage", 'price': 5.89, 'unit': "Per Lb." },
+  { 'item': "Smoked Sausage", 'price': 6.49, 'unit': "Per Lb." },
+  { 'item': "Cajun Sausage", 'price': 6.49, 'unit': "Per Lb." },
+  { 'item': "Summer Sausage", 'price': 7.49, 'unit': "Per Lb." },
   { 'item': "Boneless Loin Roast", 'price': 3.79, 'unit': "Per Lb." },
   { 'item': "Boneless Chops", 'price': 4.19, 'unit': "Per Lb." },
   { 'item': "Boneless Country Ribs", 'price': 2.89, 'unit': "Per Lb." },
