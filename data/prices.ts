@@ -92,5 +92,5 @@ export const porkSlaughterProcessingPrices: RetailPriceType[] = [
   { 'item': "Processing Fee", 'price': 1.05, 'unit': "Per Lb. of Dressed Weight" },
   { 'item': "Cure", 'price': 1.05, 'unit': "Per Pound Cured" },
   { 'item': "Sausage", 'price': 0.25, 'unit': "Per Pound Made" },
-  { 'item': "Bratwurst Sausage", 'price': 4.00, 'unit': "Per Pound Made" }
+  { 'item': "Bratwurst Sausage", 'price': 3.00, 'unit': "Per Pound Made" }
 ]
