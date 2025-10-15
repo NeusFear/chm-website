@@ -1,11 +1,11 @@
 export type RetailPriceType = { item: string, price: number, unit: string }
 
 export const retailBeefPrices: RetailPriceType[] = [
-  { 'item': "T-Bone", 'price': 20.95, 'unit': "Per Lb." },
-  { 'item': "NY Strip", 'price': 18.95, 'unit': "Per Lb." },
-  { 'item': "Tenderloin (Whole)", 'price': 24.95, 'unit': "Per Lb." },
-  { 'item': "Tenderloin (Steaks)", 'price': 39.95, 'unit': "Per Lb." },
-  { 'item': "Ribeye", 'price': 23.95, 'unit': "Per Lb." },
+  { 'item': "T-Bone", 'price': 18.95, 'unit': "Per Lb." },
+  { 'item': "NY Strip", 'price': 19.95, 'unit': "Per Lb." },
+  { 'item': "Tenderloin (Whole)", 'price': 28.95, 'unit': "Per Lb." },
+  { 'item': "Tenderloin (Steaks)", 'price': 46.95, 'unit': "Per Lb." },
+  { 'item': "Ribeye", 'price': 26.95, 'unit': "Per Lb." },
   { 'item': "Sirloin", 'price': 15.95, 'unit': "Per Lb." },
   { 'item': "Cubed Steak", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Short Ribs", 'price': 8.49, 'unit': "Per Lb." },
@@ -19,7 +19,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Brisket", 'price': 8.49, 'unit': "Per Lb." },
   { 'item': "Beef Bacon", 'price': 8.49, 'unit': "Per Lb." },
   { 'item': "Oxtail", 'price': 5.99, 'unit': "Per Lb." },
-  { 'item': "Lean Meat", 'price': 3.99, 'unit': "Per Lb." },
+  { 'item': "Lean Meat", 'price': 4.29, 'unit': "Per Lb." },
   { 'item': "Tongue", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Ground Round", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Ground Chuck", 'price': 6.99, 'unit': "Per Lb." },
