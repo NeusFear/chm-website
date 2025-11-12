@@ -52,7 +52,7 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Smoked Bacon", 'price': 7.49, 'unit': "Per Lb." },
   { 'item': "Smoked Bacon Ends", 'price': 2.69, 'unit': "Per Lb." },
   { 'item': "Fresh Ham", 'price': 2.89, 'unit': "Per Lb." },
-  { 'item': "Smoked Ham", 'price': 3.29, 'unit': "Per Lb." },
+  { 'item': "Smoked Ham", 'price': 3.69, 'unit': "Per Lb." },
   { 'item': "Smoked Ham Hock", 'price': 3.29, 'unit': "Per Lb." }  
 ]
 
