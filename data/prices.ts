@@ -36,7 +36,7 @@ export const retailPorkPrices: RetailPriceType[] = [
   { 'item': "Pork Steak", 'price': 2.89, 'unit': "Per Lb." },
   { 'item': "Pork Tenderloin", 'price': 4.99, 'unit': "Per Lb." },
   { 'item': "Spare Ribs", 'price': 2.99, 'unit': "Per Lb." },
-  { 'item': "Baby Back Ribs", 'price': 5.29, 'unit': "Per Lb." },
+  { 'item': "Baby Back Ribs", 'price': 4.29, 'unit': "Per Lb." },
   { 'item': "Hot Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Regular Sausage", 'price': 3.89, 'unit': "Per Lb." },
   { 'item': "Ground Pork", 'price': 3.59, 'unit': "Per Lb." },
