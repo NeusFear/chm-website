@@ -24,7 +24,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Ground Round", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Ground Chuck", 'price': 6.99, 'unit': "Per Lb." },
   { 'item': "Ground Chuck Patties", 'price': 7.49, 'unit': "Per Lb." },
-  { 'item': "Dog Bones", 'price': 15.00, 'unit': "Per Bag." }
+  { 'item': "Dog Bones", 'price': 20.00, 'unit': "Per Bag." }
 ]
 
 export const sectionBeefPrices: RetailPriceType[] = [
