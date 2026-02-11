@@ -13,7 +13,7 @@ export const retailBeefPrices: RetailPriceType[] = [
   { 'item': "Boneless Arm Roast", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Flank Steak", 'price': 11.99, 'unit': "Per Lb." },
   { 'item': "Skirt Steak", 'price': 15.99, 'unit': "Per Lb." },
-  { 'item': "Boneless Chuck Roast", 'price': 8.99, 'unit': "Per Lb." },
+  { 'item': "Boneless Chuck Roast", 'price': 12.49, 'unit': "Per Lb." },
   { 'item': "Boneless Rump Roast", 'price': 7.99, 'unit': "Per Lb." },
   { 'item': "Tri-Tip Roast", 'price': 8.99, 'unit': "Per Lb." },
   { 'item': "Brisket", 'price': 7.49, 'unit': "Per Lb." },
