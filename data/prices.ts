@@ -74,7 +74,7 @@ export const retailPoultryPrices: RetailPriceType[] = [
 
 export const beefSlaughterProcessingPrices: RetailPriceType[] = [
   { 'item': "Slaughter Fee", 'price': 100, 'unit': "Per Animal" },
-  { 'item': "Processing Fee", 'price': 1.05, 'unit': "Per Lb. of Dressed Weight" },
+  { 'item': "Processing Fee", 'price': 1.10, 'unit': "Per Lb. of Dressed Weight" },
   { 'item': "Make Patties", 'price': 0.45, 'unit': "Per Lb." },
   { 'item': "Split into Halfes", 'price': 3.00, 'unit': "Per Half" },
   { 'item': "Divide Half in Half", 'price': 5.00, 'unit': "Per Quarter" },
@@ -89,8 +89,8 @@ export const beefSlaughterProcessingPrices: RetailPriceType[] = [
 export const porkSlaughterProcessingPrices: RetailPriceType[] = [
   { 'item': "Slaughter Fee", 'price': 75.00, 'unit': "350 Lbs. or less" },
   { 'item': "Slaughter Fee", 'price': 100.00, 'unit': "351 Lbs. or more" },
-  { 'item': "Processing Fee", 'price': 1.05, 'unit': "Per Lb. of Dressed Weight" },
-  { 'item': "Cure", 'price': 1.05, 'unit': "Per Pound Cured" },
+  { 'item': "Processing Fee", 'price': 1.10, 'unit': "Per Lb. of Dressed Weight" },
+  { 'item': "Cure", 'price': 1.10, 'unit': "Per Pound Cured" },
   { 'item': "Sausage", 'price': 0.25, 'unit': "Per Pound Made" },
   { 'item': "Bratwurst Sausage", 'price': 3.00, 'unit': "Per Pound Made" }
 ]
