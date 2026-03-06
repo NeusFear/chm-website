@@ -75,7 +75,7 @@ export const retailPoultryPrices: RetailPriceType[] = [
 export const beefSlaughterProcessingPrices: RetailPriceType[] = [
   { 'item': "Slaughter Fee", 'price': 100, 'unit': "Per Animal" },
   { 'item': "Processing Fee", 'price': 1.10, 'unit': "Per Lb. of Dressed Weight" },
-  { 'item': "Make Patties", 'price': 0.45, 'unit': "Per Lb." },
+  { 'item': "Make Patties", 'price': 0.50, 'unit': "Per Lb." },
   { 'item': "Split into Halfes", 'price': 3.00, 'unit': "Per Half" },
   { 'item': "Divide Half in Half", 'price': 5.00, 'unit': "Per Quarter" },
   { 'item': "Cut Stew Meat", 'price': 0.50, 'unit': "Per Lb." },
