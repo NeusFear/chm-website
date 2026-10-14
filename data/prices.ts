@@ -28,7 +28,7 @@ export const retailBeefPrices: RetailPriceType[] = [
 ]
 
 export const sectionBeefPrices: RetailPriceType[] = [
-  { 'item': "Side / Quarter", 'price': 6.29, 'unit': "Per Pound Figured on a 350 Pound Dressed Weight" },
+  { 'item': "Side / Quarter", 'price': 6.49, 'unit': "Per Pound Figured on a 350 Pound Dressed Weight" },
 ]
 
 export const retailPorkPrices: RetailPriceType[] = [
